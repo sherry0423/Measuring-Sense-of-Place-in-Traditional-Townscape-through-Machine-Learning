@@ -1,0 +1,39 @@
+C:\Users\11846\.conda\envs\pytorch\python.exe C:\Users\11846\Desktop\Road-Network-Classification-main\predict.py
+use default model ResNet34, see config.py
+C:\Users\11846\.conda\envs\pytorch\lib\site-packages\h5py\__init__.py:36: UserWarning: h5py is running against HDF5 1.12.2 when it was built against 1.12.1, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+use default className
+C:\Users\11846\.conda\envs\pytorch\lib\site-packages\keras\optimizers\optimizer_v2\adam.py:110: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  super(Adam, self).__init__(name, **kwargs)
+weights is loaded
+1/1 [==============================] - 0s 461ms/step
+image name: 900_1.0.png    predict label    is:  jiangnan_water_towns
+1/1 [==============================] - 0s 45ms/step
+image name: 900_2.0.png    predict label    is:  jiangnan_water_towns
+1/1 [==============================] - 0s 44ms/step
+image name: 900_3.0.png    predict label    is:  jiangnan_water_towns
+1/1 [==============================] - 0s 47ms/step
+image name: 900_4.0.png    predict label    is:  jiangnan_water_towns
+1/1 [==============================] - 0s 46ms/step
+image name: 900_5.0.png    predict label    is:  none_jiangnan_water_towns
+_____________wrong label______________ none_jiangnan_water_towns correct: jiangnan_water_towns
+1/1 [==============================] - 0s 44ms/step
+image name: 900_1.0.png    predict label    is:  jiangnan_water_towns
+_____________wrong label______________ jiangnan_water_towns correct: none_jiangnan_water_towns
+1/1 [==============================] - 0s 46ms/step
+image name: 900_2.0.png    predict label    is:  none_jiangnan_water_towns
+1/1 [==============================] - 0s 53ms/step
+image name: 900_3.0.png    predict label    is:  none_jiangnan_water_towns
+1/1 [==============================] - 0s 47ms/step
+image name: 900_4.0.png    predict label    is:  none_jiangnan_water_towns
+1/1 [==============================] - 0s 48ms/step
+image name: 900_5.0.png    predict label    is:  none_jiangnan_water_towns
+1/1 [==============================] - 0s 49ms/step
+image name: 900_6.0.png    predict label    is:  none_jiangnan_water_towns
+1/1 [==============================] - 0s 47ms/step
+image name: 900_7.0.png    predict label    is:  none_jiangnan_water_towns
+accuracy:83.33%
+Done
+usg time: 3.1999270915985107
+
+进程已结束，退出代码为 0
