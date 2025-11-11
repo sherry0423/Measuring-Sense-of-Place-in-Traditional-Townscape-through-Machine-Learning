@@ -83,4 +83,4 @@ sentence-transformers
 transformers
 ```
 ## Project Cooperator
-Thanks `https://github.com/jingmenglei` for implementing the **street pattern** and **material recognition** module!
+Thanks `https://github.com/jingmenglei` for implementing the **street pattern classification** and **material recognition classification** module!
